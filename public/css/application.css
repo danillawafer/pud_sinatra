@@ -1,0 +1,68 @@
+
+.racer_table{
+  margin-top: 150px;
+}
+
+.racer_table td {
+
+  height: 212px;
+  width: 198px;
+}
+
+.racer_table #player1_strip td.active {
+  background-image:url('/images/uni1.png');
+}
+.racer_table #player2_strip td.active {
+  background-image:url('/images/uni2.png');
+}
+
+.cloudy {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 90px;
+
+  background-image:url('/images/clouds.png');
+}
+  
+#score {
+  text-align: center;
+  width: 100%;
+  height: 650px;
+  background-repeat:no-repeat;
+  background-position: center;
+
+  background-image:url('/images/cloud-board.png');
+}
+
+#scoreboard {
+  text-align: center;
+  margin-left: 44.5%;
+  position: relative;
+  top: 100px;
+}
+
+#scoreboard td {
+  font-size: 30px;
+  color: red;
+}
+
+th {
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+
+.bigger-clouds {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 90px;
+
+  background-image:url('/images/clouds-bottom.png');
+}
+
+body{
+  background-color: #B8EAFF;
+}
+
